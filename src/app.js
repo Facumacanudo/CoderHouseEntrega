@@ -1,5 +1,5 @@
 import express from "express";
-import servicesRouter from "./routes/services.routes.js";
+import servicesRouter from "./routes/services.router.js";
 import routingDetector from "./middlewares/routingDetector.middleware.js";
 
 const app = express();

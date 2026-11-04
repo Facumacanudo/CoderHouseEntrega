@@ -184,4 +184,4 @@ export default class ServiceManager {
         await this.#save(remainingServices);
         return { payload: idService, status: "ok" };
     }
-}
+}       

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Corte de pelo de Paredes",
+    "description": "Corte de pelo de paredes",
+    "price": 60,
+    "duration": 20,
+    "category": "Corte de pelo",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Secado de nuca",
+    "description": "Secado de nuca",
+    "duration": 30,
+    "price": 900,
+    "category": "Masajes",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Corte de pelo de Malcorra",
+    "description": "Corte de pelo de Malcorra",
+    "duration": 60,
+    "price": 100,
+    "category": "Corte de pelo",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Corte de pelo de Veron",
+    "description": "Corte de pelo de Veron",
+    "duration": 10,
+    "price": 10,
+    "category": "Corte de pelo",
+    "available": true
+  }
+]

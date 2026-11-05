@@ -34,5 +34,14 @@
     "price": 10,
     "category": "Corte de pelo",
     "available": true
+  },
+  {
+    "id": 5,
+    "name": "Consulta de nutrición",
+    "description": "Consulta inicial con nutricionista",
+    "duration": 45,
+    "price": 400,
+    "category": "Salud",
+    "available": false
   }
 ]

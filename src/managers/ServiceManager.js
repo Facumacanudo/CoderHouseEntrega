@@ -10,16 +10,14 @@ const SERVICE_FIELDS = [
     "available"
 ];
  
-// Error propio para datos inválidos. Permite que el router distinga
-// "el cliente mandó mal los datos" (400) de "falló el servidor" (500).
+
 export class ValidationError extends Error {
     constructor(message) {
         super(message);
         this.name = "ValidationError";
     }
 }
-// Funciones auxiliares de validación (puras: solo reciben un valor y
-// devuelven true/false).
+
 const textoNoVacio = (value) =>
     typeof value === "string" && value.trim() !== "";
  
@@ -176,7 +174,7 @@ export default class ServiceManager {
             (service) => service.id !== Number(idService)
         );
  
-        // Si la cantidad no cambió, no existía ese id.
+        
         if (remainingServices.length === services.length) {
             return { payload: idService, status: "notOk", message: "serviceNotFound" };
         }

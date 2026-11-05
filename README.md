@@ -36,7 +36,7 @@ El proyecto requiere las siguientes variables:
 | `PORT`     | Puerto de la aplicación; debe ser un entero entre 1 y 65535.          | `8080`        |
 | `NODE_ENV` | Entorno de ejecución permitido: `development`, `production` o `test`. | `development` |
 
-La plantilla `.env.example` contiene valores de ejemplo. El archivo `.env` es local y no debe subirse al repositorio (está incluido en `.gitignore`).
+La plantilla `.env.example` contiene los espacios para agregar los valores. El archivo `.env` es local y no debe subirse al repositorio (está incluido en `.gitignore`).
 
 La configuración se valida al iniciar (Fail-Fast): si falta una variable o tiene un valor inválido, el proceso muestra un error y se detiene antes de arrancar.
 
